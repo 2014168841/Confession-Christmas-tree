@@ -19,6 +19,8 @@ int main(void)
         putimage(0, 0, &imgbg);
         putimage(700, 100, &imgSnow);
     }
+
+
     system("pause");
     return 0;
 }
