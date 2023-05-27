@@ -5,6 +5,7 @@
 
 #include<graphics.h>//EasyxÍ¼ÐÎ¿â
 #include<stdio.h>
+#include"tools.h"
 int main(void)
 {
     initgraph(1600, 900);
@@ -18,7 +19,7 @@ int main(void)
     while (1)
     {
         putimage(0, 0, &imgbg);
-        putimage(x, y, &imgSnow);
+        putimagePNG(x, y, &imgSnow);
     }
 
 
