@@ -13,11 +13,12 @@ int main(void)
 
     loadimage(&imgbg, "res/bj.png");
     loadimage(&imgSnow, "res/snow.png");
-
+    int x = 700;
+    int y = 100;
     while (1)
     {
         putimage(0, 0, &imgbg);
-        putimage(700, 100, &imgSnow);
+        putimage(x, y, &imgSnow);
     }
 
 
