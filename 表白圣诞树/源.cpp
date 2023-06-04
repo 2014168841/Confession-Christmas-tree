@@ -69,7 +69,7 @@ int main(void)
 		//需要曲线下落;贝塞尔曲线
 
 		/*putimagePNG2(snow1.curPos.x, snow1.curPos.y,1600, &imgSnow);*/
-		putimage(snow1.curPos.x, snow1.curPos.y, &imgSnow);
+		/*putimage(snow1.curPos.x, snow1.curPos.y, &imgSnow);*/
 
 		calSnowPos(&snow1);//计算雪花位置
 
